@@ -8,7 +8,10 @@ body {
 
 }
 
-p {margin-bottom: 1.3em;}
+p {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1.3em;
+}
 
 h1 {
   font-family: 'Bree Serif', serif;

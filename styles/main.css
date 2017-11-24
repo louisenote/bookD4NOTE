@@ -5,14 +5,104 @@ body {
 }
 header {
   background-color: #962228;
-  color :#dddddd;
-  padding : 6em;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-content-block {
+  background: rgba(170,170,170,0.6);
+  padding : 22px;
+  text-align: center;
+}
+
+.header-content-block h1 {
+  font-size: 4.25em;
+}
+
+#bio {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+}
+
+#bio h1 {
+  display: none;
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 0 auto;
+  columns: 2;
+}
+
+#comp {
+  background-color: #9acbb5;
+  color : #fff;
+}
+
+.comp-section-content {
+ display: flex;
+ justify-content: space-around;
+}
+
+.comp-content {
+  background-color: #334444;
+  width : auto;
+  margin : 20px;
+}
+
+.comp-content p {
+  padding: 1em;
+
+}
+
+.comp-content img {
+  width : 100%;
+}
+
+.comp-content a {
+  display: block;
+  padding : 1em;
+  float: right;
+}
+
+#portfolio {
+
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.portfolio-content-item {
+  border: 2px solid #334444;
+  max-width: 480px;
+  margin : 20px;
+  position : relative;
+}
+
+.portfolio-content-item h2 {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  border: 1px solid red;
+}
+
+.portfolio-content-item img {
+  width : 100%;
 }
 
 section {
-  max-width: 42em;
-  margin-right: auto;
-  margin-left: auto;
+
   padding: 2em;
 }
 
@@ -35,18 +125,6 @@ footer::before {
   border-radius: 100%;
 }
 
-
-.linklist {
-  list-style-type: none;
-}
-
-.linklist li {
-margin: 2em;
-}
-
-.linklist a {
-color: #fff;
-}
 
 .nastyadvert {
   background-color: #000;
@@ -74,7 +152,7 @@ color: #fff;
 .mywork ul{
   list-style-type: none;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -82,13 +160,13 @@ color: #fff;
 }
 
 .mywork li{
-  max-width: 30%;
+  max-width: 20%;
   margin: 1em;
 
 }
 
 .mywork img{
-  width: 100%;
+  width: 80%;
 }
 
 header::after {
