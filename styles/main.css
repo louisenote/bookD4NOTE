@@ -52,24 +52,37 @@ header {
 }
 
 .comp-content {
-  background-color: #334444;
   width : auto;
   margin : 20px;
+  position : relative;
+  width: 100%;
+}
+.comp-content.typographie {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 338px;
+
 }
 
 .comp-content p {
-  padding: 1em;
+  padding: 0;
 
 }
 
 .comp-content img {
   width : 100%;
+  height: 100%
+  background: rgba(255,255,255,.2);
 }
 
 .comp-content a {
   display: block;
-  padding : 1em;
-  float: right;
+  padding : 0;
+  line-height: 338px;
+  text-align: center;
+  background: rgba(255,255,255,.2);
+    text-decoration: none;
 }
 
 #portfolio {
