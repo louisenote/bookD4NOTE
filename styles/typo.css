@@ -21,7 +21,8 @@ h1 {
   color: #fff;
 }
 
-h2 {
+h2,
+.comp-content a {
   font-family: 'Bree Serif', serif;
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
