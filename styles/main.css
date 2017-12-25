@@ -230,7 +230,6 @@ header1 {
   padding : 0;
   line-height: 338px;
   text-align: center;
-  background: rgba(255,255,255,.2);
     text-decoration: none;
 }
 
@@ -255,6 +254,26 @@ header1 {
 }
 
 .comp-content.calmelectron {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.edition {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.identité {
   background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
   background-size: cover;
   width: 250px;
