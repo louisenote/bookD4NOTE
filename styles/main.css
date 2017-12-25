@@ -1,32 +1,167 @@
 body {
   background-color: #dddddd;
-  color: #823b3b;
-    margin: 0;
+margin : 0;
 }
+
+.navbar {
+	font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  position: fixed;
+  top: 10px;
+  right: 50px;
+  letter-spacing: 1px;
+
+}
+
+
+.navbar-nav{
+  display: flex;
+}
+
+#portfolio {
+
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50vh;
+  margin: 0;
+  display: flex;
+  position : relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+#portfolio img {
+  margin: 20px;
+  width: 300px;
+}
+
+#typo {
+
+  background-color: #d6d6d6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  display: flex;
+  position : relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+#typo img {
+  margin: 20px;
+  width: 300px;
+}
+
+#logo {
+
+  background-color: #d6d6d6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  display: flex;
+  position : relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 250px;
+  padding-left: 250px;
+
+
+
+}
+
+#logo img {
+  margin: 15px;
+  width: 220px;
+}
+
+li{
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+.active {
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  padding-top:  10px;
+}
+
+.navbar-nav > li > a {
+	color: #fff;
+
+}
+
+
 header {
-  background-color: #962228;
-    min-height: 80vh;
+  background-color: #000;
+    min-height: 50vh;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 5px;
+    font-size: 10px;
 
 }
 
+header1 {
+  background-color: #000;
+  height: 30vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+    font-size: 6px;
+
+}
+
+
+
+
+
 .header-content-block {
-  background: rgba(170,170,170,0.6);
-  padding : 22px;
+    padding : 20px;
   text-align: center;
 }
 
+
 .header-content-block h1 {
-  font-size: 4.25em;
+  font-size: 6.25em;
+  padding-top: 30px;
+}
+
+.header-content-block p {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 1.8em;
+  padding-bottom: 10px;
 }
 
 #bio {
-  min-height: 45vh;
+  min-height: 35vh;
   display: flex;
   align-items: center;
 }
@@ -36,94 +171,133 @@ header {
 }
 
 .bio-content-block {
-  max-width: 960px;
+  max-width: 500px;
   margin: 0 auto;
-  columns: 2;
+  columns: 1;
+  text-align: justify;
 }
 
 #comp {
-  background-color: #9acbb5;
+  background-color: #ededed;
   color : #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .comp-section-content {
  display: flex;
- justify-content: space-around;
+ justify-content: center;
+ flex-flow: wrap;
+ max-width: 1024px;
+ margin: 0 auto;
+}
+
+.comp-content:hover{
+  opacity: 0.5;
 }
 
 .comp-content {
-  background-color: #334444;
-  width : auto;
-  margin : 20px;
+  transition : 0.3s ease;
+
 }
 
+.comp-content {
+  width : auto;
+  margin : 20px;
+  position : relative;
+  width: 250px;
+}
+
+
+.comp-content.bao {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.edition {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.identité {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.base {
+  background: transparent url(../images/800x800/base.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.illustration {
+  background: transparent url(../images/800x800/illu.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.calmelectron {
+  background: transparent url(../images/800x800/travail1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
 .comp-content p {
-  padding: 1em;
+  padding: 0;
 
 }
 
 .comp-content img {
-  width : 100%;
+  width : 300px;
+  height: 100%
+
 }
 
 .comp-content a {
   display: block;
-  padding : 1em;
-  float: right;
-}
-
-#portfolio {
-
-}
-
-.portfolio-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  padding : 0;
+  line-height: 300px;
+  text-align: center;
+  text-decoration: none;
 
 }
 
-.portfolio-content-item {
-  border: 2px solid #334444;
-  max-width: 480px;
-  margin : 20px;
-  position : relative;
-}
 
-.portfolio-content-item h2 {
-  position: absolute;
-  top : 50%;
-  left : 50%;
-  border: 1px solid red;
-}
 
-.portfolio-content-item img {
-  width : 100%;
-}
 
-section {
-
-  padding: 2em;
-}
-
-footer{
-  background-color: #962228;
-  color: #dddddd;
-  padding: 2em;
-  position: relative;
-}
-footer::before {
-  background-color: #962228;
-  content: " ";
-  display:block;
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  border-radius: 100%;
-}
 
 
 .nastyadvert {
@@ -138,7 +312,56 @@ footer::before {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
+
+.nastyadvert1 {
+  background-color: #000;
+  color: #fff;
+  min-height: 70vh;
+  background-image: url(base.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nastyadvert2 {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  background-image: url(affiche.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nastyadvert3 {
+  background-color: #000;
+  color: #fff;
+  min-height: 70vh;
+  background-image: url(tupac.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
 
 
 
@@ -149,33 +372,52 @@ footer::before {
   text-shadow: 1px 1px 2px black;
 }
 
-.mywork ul{
-  list-style-type: none;
-  margin: 0;
-  margin-bottom: 20px;
-  padding: 0;
-  display: flex;
+
+
+
+
+.insta {
+width: 40px;
+flex-basis: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.instaimg{
+  width: 40px
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-lg-4 {
+position: relative;
+min-height: 2px;
+padding-right: 15px;
+padding-left: 15px;
+margin: 20px;
+}
+
+
+
+
+
+#footerwrap {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #2f2f2f;
   flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.mywork li{
-  max-width: 20%;
-  margin: 1em;
+  align-items: center;
+  justify-content: center;
+  display: flex
 
 }
 
-.mywork img{
-  width: 80%;
-}
-
-header::after {
-  background-color: #962228;
-  content: " ";
-  display:block;
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%)  rotate(45deg);
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 5px;
 }
