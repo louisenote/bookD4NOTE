@@ -16,10 +16,12 @@ li {
 p {
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 1.3em;
+  text-decoration: none;
+
 }
 
 h1 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Josefin Slab', serif;
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
@@ -32,26 +34,48 @@ h2 {
     text-align: center;
 }
 
+span {
+  font-family: 'Josefin Slab', serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #fff;
+  font-size: 60px;
+}
 
-
-
+.bio-content-block a {
+  color: #0e83ba;
+}
 
 .comp-content a {
   font-family: 'Bree Serif', serif;
   font-weight: inherit;
   line-height: 1.2;
-  color: #000;
+  color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 .row{
   display: flex;
   justify-content: center;
+  text-decoration: none;
+
 }
-.comp-content a {
-  font-size: 30px;
-}
+
 
 .col-lg-4 p {
   letter-spacing: 2px;
+  text-decoration: none;
+  color: #f2f2f2;
+  justify-content: space-between;
+
+}
+.col-lg-4 a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #f2f2f2;
+  justify-content: space-between;
+
 }
 
 h1 {
