@@ -6,11 +6,14 @@
 
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|EB+Garamond" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/typo.css">
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script> type="text/javascript"  src="demo.js"></script>
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css">
 
   </head>
 
@@ -21,16 +24,24 @@
     <div class="navbar">
       <ul class="navbar-nav">
       <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="index.html">Contact</a></li>
-        <li><a href="#comp">Works</a></li>
+        <li><a class="js-scrollTo" href="#footerwrap">Contact</a></li>
+        <li><a class="js-scrollTo" href="#comp">Works</a></li>
       </ul>
     </div>
 
+
   <header>
+
+
     <div class="header-content-block">
-      <h1>LOUISE NOTE</h1>
-      <p> Graphic designer </p>
-    </div>
+
+      <span onmouseover="this.innerHTML='Designer'"
+          onmouseout="this.innerHTML='LOUISE NOTE'">Louise Noté</span>
+          <p>Graphic Design</p>
+
+
+        </div>
+
 
   </header>
 
@@ -44,9 +55,8 @@
 
 <section id="bio">
   <div class="bio-content-block">
-    <p>
-    John William Coltrane, also known as "Trane" (September 23, 1926 – July 17, 1967),[1] was an American jazz saxophonist and composer. Working in the bebop and hard bop idioms early in his career, Coltrane helped pioneer the use of modes in jazz and was later at the forefront of free jazz. He led at least fifty recording sessions during his career, and appeared as a sideman on many albums by other musicians, including trumpeter Miles Davis and pianist Thelonious Monk.
-  </p>
+    <p> Bonjour, je suis étudiante en Master de design graphique à l’Ecole de Communication Visuelle (ECV) de Bordeaux, en France. Passionnée d’illustration depuis toujours, j’ai décidé d’en faire un métier. Je suis polyvalente et m’intéresse à tout ce qui a trait au design graphique, à l’identité visuelle, la sérigraphie, la publicité, la typographie, l’édition et le design digital (codage HTML et CSS). J’ai ainsi codé ce site en HTML, CSS et Javascript. J’ai effectué deux stages qui m’ont permis d’acquérir une réelle expérience professionnelle. Le premier s’est déroulé chez <a href="http://www.vo-ad.com/"> Versoin Originale </a>, une agence de branding et de publicité à Hanoï, au Vietnam, le second chez <a href="http://www.mimilou-shop.fr/"> Mimilou </a> à Paris, dirigé par une illustratrice, fondatrice de la marque Mimilou  (objet de décoration pour enfants). A cette occasion, j’ai eu la chance de participer activement au salon Maison et Objet à Paris.
+
   </div>
 </section>
 
@@ -67,45 +77,31 @@
 
               <div class="comp-section-content">
 
-                <div class="comp-content bao">
-                  <a href="base.html" alt="Bao"  >
-                    Bao
-                    <a href="base.html" alt="Bao"></a>
-                  </a>
+
+                  <a class="comp-content bao" href="bao.html" alt="bao"></a>
 
 
-
-                </div>
-                  <div class="comp-content edition">
-                    <a href="edition.html" alt="Edition" >Edition</a>
-
-
-                </div>
+                  <a class="comp-content calmelectron" href="calmelectron.html" alt="calmelectron" ></a>
 
                   <div class="comp-content identité">
-                    <a href="identite.html" alt="Logotype" >Logotype</a>
+                    <a class="comp-content identité" href="identite.html" alt="Logotype" >Logotype</a>
+                  </div>
 
-                </div>
 
-                <div class="comp-content base">
-                <a href="base.html" alt="Base" >Base</a>
+                <a class="comp-content base" href="base.html" alt="Base soumarine" ></a>
 
-            </div>
+                  <a class="comp-content edition" href="edition.html" alt="Edition" ></a>
 
-                <div class="comp-content illustration">
-                  <a href="illustration.html">
-                  Illustration
-                  <a href="illustration.html" alt="Illustration"></a>
-                </a>
 
-              </div>
-                <div class="comp-content calmelectron">
-                  <a href="#" >
-                  Calmelectron
-                </a>
-              <a href="http://192.168.7.209:3000/#"></a>
+                <a class="comp-content resto" href="resto.html" alt="Restos du Coeur" ></a>
 
-              </div>
+              <a class="comp-content illustration" href="illustration.html" alt="Illustration"></a>
+
+
+
+                          <div class="comp-content web">
+                            <a class="comp-content web" href="web.html" alt="Design digital" ></a>
+                        </div>
 
             </div>
   </section>
@@ -113,28 +109,25 @@
 
 
 	<div id="footerwrap">
-		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
-					<p><b>GRAPHISM - ILLUTSRATION</b></p>
-				</div>
+					<p>GRAPHISM - ILLUSTRATION</p>
 
-				<div class="col-lg-4">
-					<p>0637016128</p>
-				</div>
-				<div class="col-lg-4">
-					<p>louisenote0@gmail.com</p>
+					<p>+33637016128</p>
 
-				</div>
+
+					<p><a href="mailto:louisenote0@gmail.com">louisenote0@gmail.com</p>
+</div>
 			</div>
+<div class="insta">
+      <a class="insta"  href="https://www.instagram.com/louise.note/#"><img class="instaimg"src="images/insta.svg" alt="This is a protfolio item"></a>
+      <a class="insta"  href="https://www.linkedin.com/in/louise-noté-b01601156/#"><img class="instaimg"src="images/linkedin.png" alt="This is a protfolio item"></a>
 		</div>
-    <a class="insta"  href="https://www.instagram.com/luise.note/#"><img class="instaimg"src="images/insta.svg" alt="This is a protfolio item"></a>
+
+
+
 
 	</div><! --/footerwrap -->
-
-
-
-
 
   </body>
 </html>
