@@ -36,8 +36,8 @@ margin : 0;
 }
 
 #web img{
-  width: 200px;
-  margin: 40px;
+  width: 230px;
+  margin: 30px;
 }
 
 #web p{
@@ -55,6 +55,8 @@ margin : 0;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 #web2 img{
