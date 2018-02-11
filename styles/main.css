@@ -63,7 +63,8 @@ margin : 0;
 }
 
 #web2 p{
-  width: 600px;
+  width: 580px;
+  margin-left: 20px;
 
 }
 
@@ -77,11 +78,13 @@ margin : 0;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 #web3 img{
-  width: 350px;
-  margin: 10px;
+  width: 300px;
+  margin: 15px;
 }
 
 #web3 p{
