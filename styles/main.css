@@ -119,6 +119,32 @@ margin : 0;
   width: 350px;
 }
 
+#poppins {
+
+  background-color: #fff;
+  padding-left: : 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+  display: flex;
+  position : relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+#poppins img {
+  margin: 30px;
+  width: 620px;
+
+}
+
 
 .baotext p {
   width: 700px;
@@ -496,6 +522,16 @@ header1 {
 
 .comp-content.web {
   background: transparent url(../images/800x800/web4.jpg) no-repeat center center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-content.poppins {
+  background: transparent url(../images/800x800/mp.jpg) no-repeat center center;
   background-size: cover;
   width: 230px;
   height: 230px;
