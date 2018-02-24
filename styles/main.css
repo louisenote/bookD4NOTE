@@ -122,8 +122,6 @@ margin : 0;
 #poppins {
 
   background-color: #fff;
-  padding-left: : 30px;
-  padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0;
@@ -136,12 +134,9 @@ margin : 0;
 
 
 
-
-
-
 #poppins img {
   margin: 30px;
-  width: 620px;
+  width: 600px;
 
 }
 
